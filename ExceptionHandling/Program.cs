@@ -12,6 +12,7 @@ namespace ExceptionHandling
         {
             DivNumbers d = new DivNumbers();
             d.division(25, 0);
+            d.division(23, 0);
             Console.ReadKey();
         }
     }
